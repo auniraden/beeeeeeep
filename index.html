@@ -6,20 +6,39 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Beep Bop!</title>
   <link rel="icon" type="image/x-icon" href="/pngwingketz.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Edu+TAS+Beginner&family=Indie+Flower&family=Libre+Baskerville&family=Pixelify+Sans&family=Playpen+Sans&display=swap" rel="stylesheet">
   <style>
     body {
       padding: 0;
       margin: 0;
       background-color: #1b1b1b;
+      font-family: 'Pixelify Sans', sans-serif;
+      font-smooth: never; /* Disable font smoothing */
+      -webkit-font-smoothing: none; /* Disable webkit font smoothing */
+    }
+
+    header {
+      background-color: #97D9A3; /* Set background color for the header */
+      color: #F603A3; /* Set text color for the header */
+      padding: 20px; /* Add padding to the header content */
+      text-align: center; /* Center align the content */
+      text-shadow: 0 0 10px #fff, 0 0 20px #F603A3, 0 0 30px #fff;
     }
   </style>
-  <script src="p5.min.js"></script>
-  <script src="./p5.sound.js"></script>
-  <script src="./p5.sound.min.js"></script>
-  <script src="./sketch.js"></script>
+  <script src="/p5.min.js"></script>
+  <script src="/p5.sound.js"></script>
+  <script src="/p5.sound.min.js"></script>
+  <script src="/sketch.js"></script>
 </head>
 
 <body>
+  <header>
+    <marquee behavior="scroll" direction="left">
+      <h1> <3 Beep peep Bop pop! <3 </h1>
+    </marquee>
+  </header>
   <main>
   </main>
 </body>
