@@ -1,5 +1,15 @@
 let width = window.innerWidth;
 let height = window.innerHeight;
+let gameOver;
+let fart;
+let breath;
+let sweep;
+let doorbell;
+let futureBell;
+let bite;
+let thanks;
+let horn;
+let notify;
 
 function setup() {
   canvas = createCanvas (width, height);
