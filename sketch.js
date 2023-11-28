@@ -4,7 +4,6 @@ let gameOver;
 let fart;
 let breath;
 let sweep;
-let doorbell;
 let futureBell;
 let bite;
 let thanks;
@@ -13,6 +12,17 @@ let notify;
 
 function setup() {
   canvas = createCanvas (width, height);
+
+  //load sounds
+  gameOver = loadSound('game-over.wav');
+  fart = loadSound('fart.wav');
+  breath = loadSound('child-breath.wav');
+  sweep = loadSound('sweep.wav');
+  futureBell = loadSound('f-doorbell.wav');
+  bite = loadSound('juicyBite.wav');
+  thanks = loadSound('thank-you.wav');
+  horn = loadSound('horn.wav');
+  notify = loadSound('notification.wav');
 }
 
 function draw() {
